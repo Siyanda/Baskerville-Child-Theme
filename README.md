@@ -1,29 +1,20 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Version: 0.0.1.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+*wordpress child theme for learnertodriver.co.za customization.
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Install WordPress either locally or on a remote server this theme uses baskerville as the parent so you'll need to install that theme as well.
+* To set up use for a different theme you will need to edit the root style.css file.
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Anyone and everyone is welcome to contribute! Check out the [Contributing Guidelines.](www.google.com).
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Siyanda Maphumulo ( @[MaphumuloPS](https://twitter.com/MaphumuloPS) / [Typographics](https://typographics.co.za).co.za  )
