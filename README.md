@@ -17,4 +17,8 @@ Version: 0.0.1.
 
 ### Who do I talk to? ###
 
+<<<<<<< HEAD
 * Siyanda Maphumulo ( @[MaphumuloPS](https://twitter.com/MaphumuloPS) / [Typographics](https://typographics.co.za).co.za  )
+=======
+* Siyanda Maphumulo ( @[MaphumuloPS](https://twitter.com/MaphumuloPS) / [Typographics](https://typographics.co.za).co.za  )
+>>>>>>> 2f2b88411d5d12a222231f2c13afcaef9259bee9

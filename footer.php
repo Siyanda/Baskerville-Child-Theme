@@ -121,7 +121,7 @@
 	<div class="credits-inner section-inner">
 	
 	<p class="credits-left fleft">
-			<a href="http://learnertodriver.co.za/about/terms-of-service/" title="Terms of Use">Terms of Use</a>
+			<a href="<?php echo home_url(); ?>/about/terms-of-service/" title="Terms of Use">Terms of Use</a>
 		</p>
 
 		<p class="credits-left fright">
@@ -145,6 +145,5 @@
 
 </script>
 <?php wp_footer(); ?>
-
 </body>
 </html>
