@@ -112,8 +112,8 @@ Template Name: Landing
 								<div class="one-third test-info">
 
 									<svg class='test-img'>
-                    <image xlink:href="<?php echo get_template_directory_uri() . '/images/Car.svg'; ?>" alt='Car' width="200" height="280" src="http://learnertodriver.co.za/wp-content/uploads/Car.png" class='test-img'/>
-                  </svg>
+				                   	 <image xlink:href="<?php bloginfo('stylesheet_directory'); ?>/images/Car.svg" alt='Car' width="200" height="280" src="<?php echo get_stylesheet_directory_uri() . '/images/Car.png'; ?>" class='test-img'/>
+				                   </svg>
 
 									<h4>Light Motor Vehicle</h4>
 									<h5>Code 8</h5>
@@ -123,8 +123,8 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 									<svg class='test-img'>
-                    <image xlink:href="<?php echo get_template_directory_uri() . '/images/Bike.svg'; ?>" alt='Bike' width="200" height="280" src="http://learnertodriver.co.za/wp-content/uploads/Bike.png" class='test-img'/>
-                  </svg>
+                					 	<image xlink:href="<?php bloginfo('stylesheet_directory'); ?>/images/Bike.svg" alt='Bike' width="200" height="280" src="<?php echo get_stylesheet_directory_uri() . '/images/Bike.png'; ?>" class='test-img'/>
+                 					 </svg>
 
 									<h4>Motorcycle Licence Test</h4>
 									<h5>Code 4</h5>
@@ -134,8 +134,8 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 									<svg class='test-img'>
-                    <image xlink:href="<?php echo get_template_directory_uri() . '/images/Truck.svg'; ?>" alt='Truck' width="200" height="280" src="<?php echo get_template_directory_uri() . '/images/Truck.png'; ?>" class='test-img'/>
-                  </svg>
+                 					   <image xlink:href="<?php bloginfo('stylesheet_directory'); ?>/images/Truck.svg" alt='Truck' width="200" height="280" src="<?php echo get_stylesheet_directory_uri() . '/images/Truck.png'; ?>" class='test-img'/>
+                  					</svg>
 
 									<h4>Heavy Motor Vehicle</h4>
 									<h5>Code 10</h5>

@@ -22,36 +22,36 @@ Template Name: Tests Page
 								<div class="one-third test-info">
 
 									<svg class='test-img'>
-                    <image xlink:href="http://learnertodriver.co.za/wp-content/uploads/Car.svg" alt='Car' width="200" height="280" src="http://learnertodriver.co.za/wp-content/uploads/Car.png" class='test-img'/>
+                    <image xlink:href="<?php echo get_stylesheet_directory() . '/images/Car.svg'; ?>" alt='Car' width="200" height="280" src="<?php echo get_stylesheet_directory_uri() . '/images/Car.png'; ?>" class='test-img'/>
                   </svg>
 
 									<h4>Light Motor Vehicle</h4>
 									<h5>Code 8</h5>
 									<p class="test-description">South African driving test for light motor vehicles</p>
-									 <a class="button green center" href="http://learnertodriver.co.za/tests/light-motor-vehicle-test/">Take Test</a>
+									 <a class="button green center" href="/tests/light-motor-vehicle-test/">Take Test</a>
 								</div> <!-- /test-info -->
 
 								<div class="one-third test-info">
 									<svg class='test-img'>
-                    <image xlink:href="http://learnertodriver.co.za/wp-content/uploads/Bike.svg" alt='Bike' width="200" height="280" src="http://learnertodriver.co.za/wp-content/uploads/Bike.png" class='test-img'/>
+                    <image xlink:href="<?php echo get_stylesheet_directory() . '/images/Bike.svg'; ?>" alt='Truck' width="200" height="280" src="<?php echo get_stylesheet_directory_uri() . '/images/Bike.png'; ?>" class='test-img'/>
                   </svg>
 
 									<h4>Motorcycle Licence Test</h4>
 									<h5>Code 4</h5>
 									<p class="test-description">South African driving test for motorcycles</p>
-									<a class="button green center" href="http://learnertodriver.co.za/tests/motorcycle-test/">Take Test</a>
+									<a class="button green center" href="/tests/motorcycle-test/">Take Test</a>
 								</div> <!-- /test-info -->
 
 								<div class="one-third test-info">
 									<svg class='test-img'>
-                    <image xlink:href="http://learnertodriver.co.za/wp-content/uploads/Truck.svg" alt='Truck' width="200" height="280" src="http://learnertodriver.co.za/wp-content/uploads/Truck.png" class='test-img'/>
+                    <image xlink:href="<?php echo stylesheet_directory() . '/images/Truck.svg'; ?>" alt='Truck' width="200" height="280" src="<?php echo get_stylesheet_directory_uri() . '/images/Truck.png'; ?>" class='test-img'/>
                   </svg>
 
 									<h4>Heavy Motor Vehicle</h4>
 									<h5>Code 10</h5>
 									<p class="test-description">South African driving test for heavy motor vehicles</p>
 
-									<a class="button green center" href="http://learnertodriver.co.za/tests/heavy-motor-vehicle-test/">Take Test</a>
+									<a class="button green center" href="/tests/heavy-motor-vehicle-test/">Take Test</a>
 								</div> <!-- /test-info -->
 
 						<div class="clear"></div>
