@@ -1,10 +1,10 @@
 /*---------------------------------------------------------------------------------
 
 	Theme Name: Learner to Driver
-	Version: 1.5
+	Version: 1.0
 	Description: Customization to match learner to driver guidelines.
 	Author: Percival Maphumulo
-	Author URI: http://typographics.co.za
+	Author URI: http://typographics.co.za/
 	Theme URI: http://typographics.co.za/
 	Template: baskerville
 	License: GNU General Public License version 2.0
@@ -247,16 +247,17 @@ body a {
 	background-repeat: no-repeat;
 }
 
-.bg-hero {
-  background:
+.bg-img {
+	background:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),url(images/Cover.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  min-height: 50vh;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+	background-repeat: no-repeat;
+	height: 60vh;
+	min-height: 400px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
 .cover {
@@ -306,6 +307,13 @@ body a {
 	width: auto;
 }
 
+.hero-title {
+	color: #fff;
+	font-size: 2.25em;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+}
+
 .blog-title {
 	font-family: 'Pacifico', sans-serif;
 	font-size: 2.25em;
@@ -315,7 +323,7 @@ body a {
 
 .blog-title a { color: #fff; }
 
-.blog-title a:hover { color: #13C4A5; }
+.blog-title .hero-title a:hover { color: #13C4A5; }
 
 .blog-description {
 	font-size: 1.1em;
@@ -607,6 +615,9 @@ body a {
 	margin-top: -13px;
 	top: 38px;
 }
+
+/*  Landing Page  ----------------------------------------- */
+
 
 
 /*  Featured media  ----------------------------------------- */
@@ -909,9 +920,7 @@ body a {
 	display: none;
 }
 
-
 /* format quote, format link */
-
 
 .post-quote {
 	padding: 10%;
@@ -1032,9 +1041,7 @@ body a {
 	text-shadow: none;
 }
 
-
 /* format chat */
-
 
 .format-chat .post-content p {
 	margin-bottom: 0.25em;
@@ -1048,30 +1055,10 @@ body a {
 
 .format-chat .more-link { margin-top: 1em; }
 
-
 /* -------------------------------------------------------------------------------- */
 /*	6. Single post
 /* -------------------------------------------------------------------------------- */
-.post-caption {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-}
-post-caption h1 {
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 3rem;
-}
-post-caption h2 {
-  font-size: 2rem;
-}
-post-caption p {
-  margin: 0;
-  font-size: 1.3rem;
-}
+
 
 body.single-post .content { width: 67.5%; }
 body.single-post .content.full-width { width: 100%; }
@@ -1322,6 +1309,17 @@ a.post-nav-next:hover { background-image: url(images/icons/1x/next-c.png); }
 	text-transform: uppercase;
 }
 
+.post-caption h2 {
+	margin: 50px 0 30px;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 600;
+	color: #DDD;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.post-caption h2,
 .post-content h1+h1, .post-content h1+h2, .post-content h1+h3, .post-content h1+h4, .post-content h1+h5, .post-content h1+h6,
 .post-content h2+h1, .post-content h2+h2, .post-content h2+h3, .post-content h2+h4, .post-content h2+h5, .post-content h2+h6,
 .post-content h3+h1, .post-content h3+h2, .post-content h3+h3, .post-content h3+h4, .post-content h3+h5, .post-content h3+h6,
@@ -1904,12 +1902,10 @@ img.alignright,
 	font-size: 0.9em;
 	font-weight: 700;
 }
-
 .comment-nav-below a { color: #666; }
 
 
 /* pingbacks */
-
 .comments .pingbacks {
 	padding-top: 40px;
 	border-top: 1px solid #eee;
@@ -2196,30 +2192,6 @@ p.form-submit { margin-top: 30px; }
   background: none repeat scroll 0 0 #46b98a;
   color: #FFFFFF;
 }
-
-.btn a {
-	padding: 7px 20px;
-	background:#1859a8;
-}
-.btn {
-	display: inline-block;
-	cursor: pointer;
-	text-align: center;
-	padding: .5em 2em .55em;
-}
-.blue {
-	color: #d9eef7;
-	border: solid 1px #0076a3;
-  border-radius: 5px ;
-	background: #0095cd;
-}
-.blue:hover {
-	background: #007ead;
-}
-.blue:active {
-	color: #80bed6;
-}
-
 
 /* Contributors template ---------------------------------------------------------- */
 .post-content + .contributors-container { border-top: 1px solid #eee; }
@@ -2937,6 +2909,10 @@ margin: 8%;
 @media (max-width: 700px) {
 
 
+	/* header */
+
+	.bg-img { height: 50vh; min-height: 260px;}
+
 	/* single post */
 
 	.post-author,
@@ -2953,14 +2929,14 @@ margin: 8%;
 	.single-post .post-meta { background-color: #3F4854; }
 
 	/* post content */
-
+	.post-caption,
 	.post-content .alignleft,
 	.post-content .alignright {
 		max-width: 100%;
 		float: none;
 		margin: 1.25em 0;
 	}
-
+	.post-caption,
 	.post-content .alignleft a,
 	.post-content .alignleft img,
 	.post-content .alignright a,
@@ -2997,13 +2973,13 @@ margin: 8%;
 
 	.section.header { padding: 35px 0; }
 
+	.bg-img { height: 40vh; }
+
 	.header-search-block .s { font-size: 1.5em; margin-top: -17px; }
 
 	.nav-toggle { padding: 20px 0; }
 
 	.search-toggle { height: 59px; }
-
-	.bg-hero{height: 50vh; min-height: 180px;}
 
 	/* navigation */
 
@@ -3063,22 +3039,25 @@ margin: 8%;
 		margin-bottom: 1em;
 	}
 
-	.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+	.post-caption,.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-caption h2, .post-content h6 {
 		margin: 40px 0 20px;
 	}
+	
 
 	.post-content h1 { font-size: 1.4em; }
 	.post-content h2 { font-size: 1.3em; }
 	.post-content h3 { font-size: 1.25em; }
 	.post-content h4 { font-size: 1.1em; }
 	.post-content h5 { font-size: 1em; }
+	.post-caption h2 { font-size: 1.3em}
 
-	.post-content h6 {
+	.post-caption h2, .post-content h6 {
 		font-size: 0.9em;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
 
+	.post-caption h2,
 	.post-content h1+h1, .post-content h1+h2, .post-content h1+h3, .post-content h1+h4, .post-content h1+h5, .post-content h1+h6,
 	.post-content h2+h1, .post-content h2+h2, .post-content h2+h3, .post-content h2+h4, .post-content h2+h5, .post-content h2+h6,
 	.post-content h3+h1, .post-content h3+h2, .post-content h3+h3, .post-content h3+h4, .post-content h3+h5, .post-content h3+h6,
@@ -3211,7 +3190,7 @@ margin: 8%;
 		font-size: 1em;
 		margin-top: 15px;
 	}
-	.bg-hero {height: 45vh;}
+
 	/* post meta */
 
 	.post-author:before,
@@ -3269,12 +3248,3 @@ margin: 8%;
 
 	.comment-form textarea { height: 150px; }
 }
-@media (max-width: 360px) {
-
-
-	/* respond */
-
-	.bg-hero { height: 30vh; }
-}
-
-/* ------------------------ Add-ons ---------------------------------- */
