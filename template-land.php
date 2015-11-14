@@ -40,7 +40,6 @@ Template Name: Landing
 					} ?>
 
 				 </ul> <!-- /main-menu -->
-				 <a class="search-toggle fright" href="#"></a>
 
 				 <div class="clear"></div>
 			</div> <!-- /navigation-inner -->
@@ -67,14 +66,16 @@ Template Name: Landing
 		</div> <!-- /mobile-navigation -->
 
 <div class="clearfix"></div>
-	<header class="header section small-padding bg-hero">								
+
+	<header class="section medium-padding bg-img">
+													
+		<div class="blog-title">
 	
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
-				<div class="header-inner section-inner">
+				<div class=" section-inner">
 					        						        			        		                
 					<div class="post-caption">
-						<h1><?php the_title(); ?></h1>
 								                                        
 						<?php the_content(); ?>
 						
@@ -82,16 +83,17 @@ Template Name: Landing
 																								
 						<?php endif; ?>
 															            			                        
-					</div> <!-- /post-caption -->
+					</div> <!-- /post-content, the landing page main text-->
 									
-				</div> <!-- /header-inner section-inner -->
+				</div> <!-- /post -->
 			
 			<?php endwhile; else: ?>
 			
 				<p><?php _e("We couldn't find any posts that matched your query. Please try again.", "baskerville"); ?></p>
 		
 			<?php endif; ?>
-	
+		
+			<div class="clear"></div>
 			
 		</div> <!-- /content -->
 		 
