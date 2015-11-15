@@ -113,8 +113,9 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
-									
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Car.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri(); ?>/images/Car.png'; this.onerror=null;">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Car.png">
+
+									<!-- <img src="/images/Car.svg" onerror="this.src='/images/Car.png'; this.onerror=null;"> -->
 
 									<h4>Light Motor Vehicle</h4>
 									<h5>Code 8</h5>
@@ -124,7 +125,7 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Bike.svg">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Bike.png">
 
 									<h4>Motorcycle Licence Test</h4>
 									<h5>Code 4</h5>
@@ -134,7 +135,7 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Truck.svg">
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Truck.png">
 
 									<h4>Heavy Motor Vehicle</h4>
 									<h5>Code 10</h5>
