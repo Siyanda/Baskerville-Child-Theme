@@ -113,7 +113,8 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Car.svg">
+									
+									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Car.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri(); ?>/images/Car.png'; this.onerror=null;">
 
 									<h4>Light Motor Vehicle</h4>
 									<h5>Code 8</h5>
