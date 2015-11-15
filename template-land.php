@@ -113,7 +113,11 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
+<<<<<<< HEAD
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/car.svg">
+=======
+									<img src="http://learnertodriver.co.za/wp-content/themes/baskerville-child/images/Car.svg">
+>>>>>>> master
 
 									<h4>Light Motor Vehicle</h4>
 									<h5>Code 8</h5>
@@ -123,7 +127,11 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
+<<<<<<< HEAD
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bike.svg">
+=======
+									<img src="http://learnertodriver.co.za/wp-content/themes/baskerville-child/images/bike.svg">
+>>>>>>> master
 
 									<h4>Motorcycle Licence Test</h4>
 									<h5>Code 4</h5>
@@ -133,7 +141,11 @@ Template Name: Landing
 
 								<div class="one-third test-info">
 
+<<<<<<< HEAD
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/truck.svg">
+=======
+									<img src="http://learnertodriver.co.za/wp-content/themes/baskerville-child/images/truck.svg">
+>>>>>>> master
 
 									<h4>Heavy Motor Vehicle</h4>
 									<h5>Code 10</h5>
